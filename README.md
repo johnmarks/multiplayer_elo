@@ -1,6 +1,6 @@
 # MultiplayerElo
 
-TODO: Write a gem description
+This is a gem for multiplayer elo calculations.  It supports ties and 2 or more players.
 
 ## Installation
 
