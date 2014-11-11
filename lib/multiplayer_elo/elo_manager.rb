@@ -14,6 +14,7 @@ class EloManager
 		(@k_factor.to_f * (result.to_f - expected_percentage(elo1, elo2))).round
 	end
 
+	# format is an array of hashes with the keys :elo :id and :place (place is 1,2,3,4, etc)
 	def evaulate_results(results)
 		results.each do |i|
 			elo_change = 0

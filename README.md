@@ -20,11 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```ruby
+    players = [ {id: 1, elo: 1500, place: 1}, {id: 2, elo: 1500, place: 2}, 
+                {id: 3, elo: 1500, place: 3}, {id: 4, elo: 1500, place: 4} ]
+
+    results = @elo_manager.evaulate_results(players)
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/multiplayer_elo/fork )
+1. Fork it ( https://github.com/stunningene/multiplayer_elo/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
