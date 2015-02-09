@@ -1,5 +1,4 @@
 require "multiplayer_elo/version"
-require 'multiplayer_elo/rating_manager'
 require 'multiplayer_elo/elo_manager'
 
 module MultiplayerElo
